@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;Chapter8Drill/swap.cpp&apos; to &apos;Drill.cpp&apos;" description="Rename resource &apos;swap.cpp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="swap.cpp" name="Drill.cpp" stamp="1510567947848" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;Chapter8Drill/namespace.cpp&apos; to &apos;namespace.h&apos;" description="Rename resource &apos;namespace.cpp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="namespace.cpp" name="namespace.h" stamp="1510569345901" updateReferences="true"/>
+</session>

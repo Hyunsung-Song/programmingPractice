@@ -1,0 +1,13 @@
+swap_v(int a,int b){
+	int temp;
+	temp = a;
+	a = b;
+	b = temp;
+}
+
+swap_r(int&, int&){
+	int temp;
+	temp = a;
+	a = b;
+	b = temp;
+}

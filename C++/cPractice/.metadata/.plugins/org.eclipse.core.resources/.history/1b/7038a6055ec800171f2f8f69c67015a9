@@ -1,0 +1,29 @@
+#include <iostream>
+using namespace std;
+
+namespace X {
+	int var;
+	class print {
+		print(){
+			cout << var << endl;
+		}
+	};
+}
+
+namespace X {
+	int var;
+	class print {
+		print(){
+			cout << var << endl;
+		}
+	};
+}
+
+namespace X {
+	int var;
+	class print {
+		print(){
+			cout << var << endl;
+		}
+	};
+}

@@ -1,0 +1,8 @@
+namespace X {
+int var;
+	class print {
+		print(){
+			cout << var << endl;
+		}
+	}
+}

@@ -1,0 +1,43 @@
+/*
+ * Exercise.cpp
+ *
+ *  Created on: 2017. 11. 13.
+ *      Author: Hyunsung PC
+ */
+
+//******************************* Exercise 3 & 4 ****************************************
+
+#include<iostream>
+#include<vector>
+
+using namespace std;
+
+void fibonacci(int x, int y, vector<int>& v, int n){
+
+	v.push_back(x);
+	v.push_back(y);
+
+	for(int i = 2; i < n; i++){
+		v.push_back(v[i-2] + v[i-1]);
+	}
+
+}
+
+int main(){
+
+	int first, second, nth;
+	vector<int> testOne;
+
+	cout << "Enter the first, second, and nth: ";
+	cin >> first >> second >> nth;
+
+	fibonacci(first,second,testOne,nth);
+
+	for(size_t j = 0; j < testOne.size(); j++){
+		cout << "Printing: " << testOne[j] << endl;
+	}
+
+}
+
+
+

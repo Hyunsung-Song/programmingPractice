@@ -1,0 +1,7 @@
+05:44:37 **** Incremental Build of configuration Debug for project Assignment ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o HSong1.o "..\\HSong1.cpp" 
+g++ -o Assignment.exe HSong1.o 
+
+05:44:37 Build Finished (took 698ms)
+
