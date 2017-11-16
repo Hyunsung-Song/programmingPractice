@@ -48,9 +48,7 @@ void skip_to_int(){
 	if(cin.fail()){
 		cin.clear();
 //		for(char ch; cin>>ch;){
-//			cout << isdigit(ch) << ch <<  endl;
 //			if(isdigit(ch)){
-//				cout << "LOLWUT" << endl;
 //				cin.unget();
 //				return;
 //			}
@@ -71,6 +69,5 @@ int main () {
 			skip_to_int();
 		}
 	}
-	cout << "FINAL: " << n;
 }
 

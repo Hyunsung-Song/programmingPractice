@@ -1,35 +1,46 @@
-06:27:18 **** Incremental Build of configuration Debug for project Chapter8 ****
-Info: Internal Builder is used for build
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Exercise.o "..\\Exercise.cpp" 
-g++ -o Chapter8.exe Exercise.o 
-06:32:19 **** Incremental Build of configuration Debug for project Chapter8 ****
-Info: Internal Builder is used for build
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Exercise.o "..\\Exercise.cpp" 
-..\Exercise.cpp: In function 'void fibonacci(int, int, std::vector<int>&, int)':
-..\Exercise.cpp:17:6: warning: unused variable 'temp' [-Wunused-variable]
-  int temp;
-      ^~~~
-g++ -o Chapter8.exe Exercise.o 
-06:32:29 **** Incremental Build of configuration Debug for project Chapter8 ****
-Info: Internal Builder is used for build
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Exercise.o "..\\Exercise.cpp" 
-g++ -o Chapter8.exe Exercise.o 
-06:34:18 **** Incremental Build of configuration Debug for project Chapter8 ****
-Info: Internal Builder is used for build
-g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Exercise.o "..\\Exercise.cpp" 
-g++ -o Chapter8.exe Exercise.o 
-Info: Nothing to build for Chapter8
-06:35:10 **** Incremental Build of configuration Debug for project Chapter8 ****
+08:11:03 **** Incremental Build of configuration Debug for project Chapter8 ****
 Info: Internal Builder is used for build
 g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Exercise.o "..\\Exercise.cpp" 
 g++ -o Chapter8.exe Exercise.o 
 Info: Nothing to build for Chapter8
 Info: Nothing to build for Chapter8
 Info: Nothing to build for Chapter8
-Info: Nothing to build for Chapter8
-Info: Nothing to build for Chapter8
-Info: Nothing to build for Chapter8
-Info: Nothing to build for Chapter8
-Info: Nothing to build for Chapter8
-Info: Nothing to build for Chapter8
-Info: Nothing to build for Chapter8
+08:12:49 **** Incremental Build of configuration Debug for project Chapter8 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Exercise.o "..\\Exercise.cpp" 
+g++ -o Chapter8.exe Exercise.o 
+08:13:34 **** Incremental Build of configuration Debug for project Chapter8 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Exercise.o "..\\Exercise.cpp" 
+g++ -o Chapter8.exe Exercise.o 
+08:15:51 **** Incremental Build of configuration Debug for project Chapter8 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Exercise.o "..\\Exercise.cpp" 
+g++ -o Chapter8.exe Exercise.o 
+08:16:46 **** Incremental Build of configuration Debug for project Chapter8 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Exercise.o "..\\Exercise.cpp" 
+g++ -o Chapter8.exe Exercise.o 
+08:17:30 **** Incremental Build of configuration Debug for project Chapter8 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Exercise.o "..\\Exercise.cpp" 
+g++ -o Chapter8.exe Exercise.o 
+08:17:51 **** Incremental Build of configuration Debug for project Chapter8 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Exercise.o "..\\Exercise.cpp" 
+g++ -o Chapter8.exe Exercise.o 
+08:19:10 **** Incremental Build of configuration Debug for project Chapter8 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Exercise.o "..\\Exercise.cpp" 
+g++ -o Chapter8.exe Exercise.o 
+08:20:31 **** Incremental Build of configuration Debug for project Chapter8 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Exercise.o "..\\Exercise.cpp" 
+..\Exercise.cpp: In function 'void skip_to_int()':
+..\Exercise.cpp:53:27: error: 'n' was not declared in this scope
+   cout << "THIS IS N " << n << endl;
+                           ^
+08:20:45 **** Incremental Build of configuration Debug for project Chapter8 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Exercise.o "..\\Exercise.cpp" 
+g++ -o Chapter8.exe Exercise.o 

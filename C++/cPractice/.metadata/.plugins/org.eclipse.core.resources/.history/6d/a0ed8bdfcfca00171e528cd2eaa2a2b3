@@ -47,14 +47,12 @@ using namespace std;
 void skip_to_int(){
 	if(cin.fail()){
 		cin.clear();
-//		for(char ch; cin>>ch;){
-//			cout << isdigit(ch) << ch <<  endl;
-//			if(isdigit(ch)){
-//				cout << "LOLWUT" << endl;
-//				cin.unget();
-//				return;
-//			}
-//		}
+		for(char ch; cin>>ch;){
+			if(isdigit(ch)){
+				cin.unget();
+				return;
+			}
+		}
 	}
 }
 
@@ -68,9 +66,8 @@ int main () {
 			cout << "Sorry" << n << " is not in the [1:10] range; please try again\n";
 		} else {
 			cout << "Sorry, that was not a number; please try again\n";
-			skip_to_int();
+
 		}
 	}
-	cout << "FINAL: " << n;
 }
 

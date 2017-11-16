@@ -47,6 +47,10 @@ using namespace std;
 void skip_to_int(){
 	if(cin.fail()){
 		cin.clear();
+		char ch;
+		cin >> ch;
+		cout << "THIS IS CH " << ch << endl;
+		cout << "THIS IS N " << n << endl;
 //		for(char ch; cin>>ch;){
 //			cout << isdigit(ch) << ch <<  endl;
 //			if(isdigit(ch)){

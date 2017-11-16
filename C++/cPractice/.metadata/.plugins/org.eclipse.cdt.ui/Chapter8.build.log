@@ -1,1 +1,7 @@
-Info: Nothing to build for Chapter8
+08:20:45 **** Incremental Build of configuration Debug for project Chapter8 ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o Exercise.o "..\\Exercise.cpp" 
+g++ -o Chapter8.exe Exercise.o 
+
+08:20:46 Build Finished (took 647ms)
+

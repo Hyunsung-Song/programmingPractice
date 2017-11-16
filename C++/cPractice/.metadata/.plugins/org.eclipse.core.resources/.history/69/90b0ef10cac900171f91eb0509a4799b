@@ -44,33 +44,13 @@
 
 using namespace std;
 
-void skip_to_int(){
-	if(cin.fail()){
-		cin.clear();
-//		for(char ch; cin>>ch;){
-//			cout << isdigit(ch) << ch <<  endl;
-//			if(isdigit(ch)){
-//				cout << "LOLWUT" << endl;
-//				cin.unget();
-//				return;
-//			}
-//		}
-	}
-}
-
 int main () {
 
-	cout << "Please enter an integer in the range 1 to 10 (inclusive):\n";
-	int n = 0;
-	while(true){
-		if(cin>>n){
-			if(1<=n && n<=10) break;
-			cout << "Sorry" << n << " is not in the [1:10] range; please try again\n";
-		} else {
-			cout << "Sorry, that was not a number; please try again\n";
-			skip_to_int();
-		}
-	}
-	cout << "FINAL: " << n;
+	int initDigit;
+
+	cout << "Input: ";
+	cin >> initDigit;
+
+	cout << initDigit.size();
 }
 
